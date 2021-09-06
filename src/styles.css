@@ -1,0 +1,784 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Quiz {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Desktop-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 6em;
+    top: 0;
+}
+
+.card {
+    position: relative;
+
+    margin: auto;
+    width: 90%;
+    max-width: 22em;
+    height: 33em;
+
+
+    background: #EEEEEE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 0.8em;
+}
+.card_results {
+    position: relative;
+
+    margin: auto;
+    width: 90%;
+    max-width: 44em;
+    height: 34em;
+
+    background: #EEEEEE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.result_text {
+    /* Результаты профориентационного тестирования */
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 23px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(0.9em + 1vw);
+    line-height: 31px;
+
+    color: #000000;
+
+}
+
+.results {
+
+    color: #FFFFFF;
+    position: relative;
+    top: 2rem;
+    left: 3%;
+    border-radius: 0.4em;
+    height: 2rem;
+    border: #EEEEEE;
+    font-size: calc(0.4em + 0.8vw);
+
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.results_charts {
+
+    position: relative;
+    top: 20px;
+    left: 3%;
+    width: 94%;
+
+}
+.results_radar {
+
+    position: absolute;
+    width: 44%;
+    left: 3%;
+    height: 64px;
+    top: 455px;
+
+    cursor: pointer;
+    background: #D4D4D4;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+    line-height: 31px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.img {
+    position: absolute;
+    width: 94%;
+    height: 364px;
+    left: 3%;
+    top: 3%;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.img_logo {
+
+    position: relative;
+
+    top: 2rem;
+    margin: auto;
+    left: 10%;
+    width: 80%;
+    max-width: 44em;
+
+    border-radius: 8px;
+}
+.img_rec {
+
+     position: absolute;
+
+     top: -2rem;
+     right: -1rem;
+     width: 6rem;
+ }
+.text{
+    position: relative;
+
+    top: 1rem;
+    width: 90%;
+    height: 3.5rem;
+    margin: auto;
+
+    background: #F9F9F9;
+    border-radius: 8px;
+}
+.starting-text{
+     position: relative;
+
+     bottom: 1rem;
+     width: 90%;
+     height: 3.5rem;
+     margin: auto;
+
+     background: #F9F9F9;
+     border-radius: 8px;
+ }
+.card-text {
+
+    position: relative;
+    width: 94%;
+    height: 4.6em;
+    left: 3%;
+    top: 75%;
+
+    text-align: center;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+
+    color: #000000;
+
+}
+
+.grade {
+    position: absolute;
+    width: 100%;
+    height: 4em;
+    left: 0;
+    top: 34em;
+
+
+    background: #EEEEEE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.stars {
+    position: relative;
+    font-size: calc(3.0rem + 1vw);
+    top: -1vw;
+
+}
+
+
+
+#Rectangle-1 {
+
+    width: 100%;
+    height: 4em;
+
+    background: #C4C4C4;
+
+}
+
+#Ellipse-1 {
+
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    right: 2em;
+    top: 1rem;
+
+    background: #DDDDDD;
+}
+
+#Ellipse-2 {
+
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    right: 6em;
+    top: 1rem;
+
+    background: #DDDDDD;
+}
+
+.mini_logo1 {
+
+    position: absolute;
+
+    top: 0.3rem;
+    left: 2em;
+    height: 3.8rem;
+}
+.mini_logo2 {
+
+    position: absolute;
+
+    top: 0.3rem;
+    left: 6.5em;
+    height: 3.8rem;
+}
+.fade {
+    animation: fade-in-keyframes 1s;
+}
+
+@keyframes fade-in-keyframes {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.reverse {
+    animation-direction: reverse;
+}
+
+.normal {
+    animation-direction: normal;
+}
+
+
+
+body {
+    margin: 0;
+    background: #DDDDE0;
+}
+
+#root {
+    height: 0;
+}
+
+.card_options {
+    /* Rectangle 44 */
+
+
+    position: absolute;
+    width: 94%;
+    height: 60%;
+    left: 3%;
+    top: 35%;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.parts{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+}
+
+.card_option {
+    /* Киберспорт */
+    position: relative;
+    width: 94%;
+    height: 33%;
+    left: 3%;
+
+    text-align: center;
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    color: #000000;
+}
+.card_option4 {
+    /* Киберспорт */
+    position: relative;
+    width: 94%;
+    height: 25%;
+    left: 3%;
+
+    text-align: center;
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #000000;
+}
+.card_option4_wrong {
+    /* Киберспорт */
+    position: relative;
+    width: 94%;
+    height: 25%;
+    left: 3%;
+
+    text-align: center;
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #FFFFFF;
+    background-color: #AA0000;
+}
+.card_option4_true {
+    /* Киберспорт */
+    position: relative;
+    width: 94%;
+    height: 25%;
+    left: 3%;
+
+    text-align: center;
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background-color: #00AA00;
+}
+.card_option5_true {
+    /* Киберспорт */
+    position: relative;
+    width: 94%;
+    height: 25%;
+    left: 3%;
+
+    text-align: center;
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background-color: #888888;
+}
+
+.card-text2 {
+    /* Выбери увлечение, которое нравится больше всего */
+
+
+    position: absolute;
+    width: 94%;
+    height: 5em;
+    left: 3%;
+    top: 3%;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.card-text3 {
+    /* Выбери увлечение, которое нравится больше всего */
+
+
+    position: absolute;
+    width: 90%;
+    height: 5em;
+    left: 5%;
+    top: 7%;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.button_next {
+    /* Rectangle 4 */
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    top: 530px;
+
+    cursor: pointer;
+    background: #EEEEEE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+    line-height: 31px;
+    text-align: center;
+
+    color: #000000;
+}
+.button_next_prog {
+    /* Rectangle 4 */
+    position: absolute;
+    width: 44%;
+    left: 53%;
+    height: 64px;
+    top: 455px;
+
+    cursor: pointer;
+    background: #D4D4D4;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+    line-height: 31px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.registr_title {
+    /* Регистрация */
+    position: absolute;
+    width: 80%;
+    height: 126px;
+    left: 10%;
+    top: 0;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+div{
+    /**
+             * Для эксплорера
+             */
+    -ms-user-select: none;
+
+    /**
+     * Для мозилы
+     */
+    -moz-user-select: none;
+
+    /**
+     * Для конкверора
+     */
+    -khtml-user-select: none;
+
+    /**
+     * Для Сафари и Хрома
+     */
+    -webkit-user-select: none;
+}
+div{
+    /**
+             * Для эксплорера
+             */
+    -ms-user-select: none;
+
+    /**
+     * Для мозилы
+     */
+    -moz-user-select: none;
+
+    /**
+     * Для конкверора
+     */
+    -khtml-user-select: none;
+
+    /**
+     * Для Сафари и Хрома
+     */
+    -webkit-user-select: none;
+}
+.registr_text {
+    /* Расписание событий по профориентации для школьников Адмиралтейского района будут доступны после регистрации. Для этого введите свой номер телефона и укажите номер школы. */
+
+
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 20%;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(0.9em  + 0.2vw);
+    line-height: 19px;
+
+    color: #000000;
+}
+.Event_text {
+    /* Расписание событий по профориентации для школьников Адмиралтейского района будут доступны после регистрации. Для этого введите свой номер телефона и укажите номер школы. */
+
+
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+.registr_text_count {
+    /* Расписание событий по профориентации для школьников Адмиралтейского района будут доступны после регистрации. Для этого введите свой номер телефона и укажите номер школы. */
+
+
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+
+    text-align: center;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+.registr_text_0 {
+     /* Расписание событий по профориентации для школьников Адмиралтейского района будут доступны после регистрации. Для этого введите свой номер телефона и укажите номер школы. */
+
+
+     position: absolute;
+     width: 80%;
+     left: 10%;
+     top: 60px;
+
+     font-family: Rubik, serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 19px;
+
+     color: #000000;
+ }
+.automargin{
+    margin: auto;
+}
+.reiting{
+    /* Расписание событий по профориентации для школьников Адмиралтейского района будут доступны после регистрации. Для этого введите свой номер телефона и укажите номер школы. */
+
+
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 60px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(0.3em + 1vw);
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.card-start_text {
+    /* Расписание событий по профориентации для школьников Адмиралтейского района будут доступны после регистрации. Для этого введите свой номер телефона и укажите номер школы. */
+    position: relative;
+    width: 100%;
+    height: 16.6%;
+    text-align: center;
+
+    vertical-align: center;
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.registr_button {
+    /* Rectangle 4 */
+    position: absolute;
+    width: 96%;
+    height: 12%;
+    left: 2%;
+    top: 86%;
+
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+    background: #EEEEEE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 0.8em;
+}
+.button_answer {
+    position: absolute;
+    width: 80%;
+    height: 4em;
+    left: 10%;
+    top: 55%;
+
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+    background: #CECECE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.registr_button_next {
+    /* Rectangle 4 */
+    position: absolute;
+    width: 44%;
+    height: 4em;
+    left: 51%;
+    top: 70%;
+
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+    background: #CECECE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.registr_button_registr {
+     /* Rectangle 4 */
+     position: absolute;
+     width: 44%;
+     height: 4em;
+     left: 5%;
+     top: 70%;
+
+     cursor: pointer;
+     font-family: Rubik, serif;
+     font-style: normal;
+     font-weight: bold;
+
+     text-align: center;
+     background: #CECEDE;
+     box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+     border-radius: 8px;
+ }
+
+.registr_button_exit {
+    /* Rectangle 4 */
+    position: absolute;
+    width: 80%;
+    height: 4em;
+    left: 10%;
+    top: 70%;
+
+    cursor: pointer;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+    background: #CECECE;
+    box-shadow: 0 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.registr_field1 {
+    /* Rectangle 44 */
+
+
+    position: relative;
+    width: 80%;
+    height: 73px;
+    left: 10%;
+    top: 244px;
+    text-align: center;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.registr_field2 {
+    /* Rectangle 44 */
+
+
+    position: relative;
+    width: 80%;
+    height: 73px;
+    left: 10%;
+    top: 263px;
+    text-align: center;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
