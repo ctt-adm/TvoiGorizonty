@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css",
+    "main.js": "/TvoiGorizonty/static/js/main.b0d346d7.chunk.js",
+    "main.js.map": "/TvoiGorizonty/static/js/main.b0d346d7.chunk.js.map",
+    "runtime-main.js": "/TvoiGorizonty/static/js/runtime-main.076f968c.js",
+    "runtime-main.js.map": "/TvoiGorizonty/static/js/runtime-main.076f968c.js.map",
+    "static/js/2.44ffa2fb.chunk.js": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js",
+    "static/js/2.44ffa2fb.chunk.js.map": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.map",
+    "index.html": "/TvoiGorizonty/index.html",
+    "precache-manifest.2e9c9c659935bfc8e345738d5676294d.js": "/TvoiGorizonty/precache-manifest.2e9c9c659935bfc8e345738d5676294d.js",
+    "service-worker.js": "/TvoiGorizonty/service-worker.js",
+    "static/css/main.1d98578d.chunk.css.map": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css.map",
+    "static/js/2.44ffa2fb.chunk.js.LICENSE.txt": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.LICENSE.txt",
+    "static/media/T - искать и устранять неисправности - 1.png": "/TvoiGorizonty/static/media/T - искать и устранять неисправности - 1.5acb7723.png",
+    "static/media/T - конструировать и изобретать - 1.png": "/TvoiGorizonty/static/media/T - конструировать и изобретать - 1.fe8052e7.png",
+    "static/media/Е - понимать природные явления - 1.png": "/TvoiGorizonty/static/media/Е - понимать природные явления - 1.9065e4a4.png",
+    "static/media/Е - проводить лабораторные исследования - 1.png": "/TvoiGorizonty/static/media/Е - проводить лабораторные исследования - 1.d041a454.png",
+    "static/media/Е - работать вне офиса в природных условиях - 1.png": "/TvoiGorizonty/static/media/Е - работать вне офиса в природных условиях - 1.c35f1300.png",
+    "static/media/С - заводить многочисленные деловые знакомства - 1.png": "/TvoiGorizonty/static/media/С - заводить многочисленные деловые знакомства - 1.0b6e52fc.png",
+    "static/media/С - понимать чувства, намерения людей - 1.png": "/TvoiGorizonty/static/media/С - понимать чувства, намерения людей - 1.93c3e59a.png",
+    "static/media/С - часто помогать людям - 1.png": "/TvoiGorizonty/static/media/С - часто помогать людям - 1.48e34167.png",
+    "static/media/Х - выступать на сцене, увлекаться дизайном - 1.png": "/TvoiGorizonty/static/media/Х - выступать на сцене, увлекаться дизайном - 1.1b911a73.png",
+    "static/media/Х - сочинять лит. произведения, петь, танцевать - 1.png": "/TvoiGorizonty/static/media/Х - сочинять лит. произведения, петь, танцевать - 1.af482b2a.png",
+    "static/media/Х - художественная фотография, рисование - 1.png": "/TvoiGorizonty/static/media/Х - художественная фотография, рисование - 1.b895b03a.png",
+    "static/media/Ц - интересоваться иностранными языками - 1.png": "/TvoiGorizonty/static/media/Ц - интересоваться иностранными языками - 1.15759925.png",
+    "static/media/Ц - обрабатывать информацию, производить вычисления - 1.png": "/TvoiGorizonty/static/media/Ц - обрабатывать информацию, производить вычисления - 1.2acee95e.png",
+    "static/media/Ц - редактировать тексты, искать ошибки - 1.png": "/TvoiGorizonty/static/media/Ц - редактировать тексты, искать ошибки - 1.3a6be8db.png",
+    "static/media/лого_синий.png": "/TvoiGorizonty/static/media/лого_синий.cc7c5a80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.076f968c.js",
+    "static/js/2.44ffa2fb.chunk.js",
+    "static/css/main.1d98578d.chunk.css",
+    "static/js/main.b0d346d7.chunk.js"
+  ]
+}
