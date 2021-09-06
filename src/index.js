@@ -8,27 +8,20 @@ import Main from './components/Main';
 import {HashRouter} from 'react-router-dom';
 
 const particleOpt = {
+    fpsLimit: 60,
     particles: {
         number: {
-            value: 150,
+            value: 100/*,
             density: {
                 enable: true,
                 value_area: 1000
-            }
+            }*/
         },
         size: {
             value: 3
         }
 
-    }/*,
-    interactivity: {
-        events: {
-            onhover: {
-                enable: true,
-                mode: "repulse"
-            }
-        }
-    }*/
+    }
 };
 
 function App() {

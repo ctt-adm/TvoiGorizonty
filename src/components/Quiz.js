@@ -2,6 +2,9 @@ import React from "react";
 import {QuizData} from "./QuizData";
 import StarRatingComponent from 'react-star-rating-component';
 import Quiz2 from "./Quiz2";
+import Results from "./Results";
+
+import blank from './blank.png'
 
 export var Superstate = {
     __Hud: 0,
@@ -82,13 +85,14 @@ class Quiz extends React.Component {
 
     onStarClick(nextValue, prevValue, name) {
         this.setState({rating: nextValue});
-        this.setState({fadeRev: true, image: ''});
+        this.setState({fadeRev: true, image: blank});
+        //this.setState({fadeRev: true});
     }
 
     render() {
 
-        if (localStorage < 7)
-            document.location.href = "#/";
+        if (localStorage < 5)
+            document.location.href = "/";
         if (
             parseInt(localStorage.getItem('Hud')) +
             parseInt(localStorage.getItem('Nat')) +
@@ -97,31 +101,10 @@ class Quiz extends React.Component {
             parseInt(localStorage.getItem('Tech')) > 0
         )
             return (<div>
+                <Results/>
+            </div>
+        );
 
-                    <div className="card_results">
-                        <div className="result_text">
-                            <h2>Внимание</h2>
-                            <h4>Вы уже прошли тест</h4>
-                            <div className="" onClick={() => {
-                                document.location.href = "Results/";
-                            }}>
-                                <div className="inner">
-                                    <p>Вы можете посмотреть свои результаты в разделе "Результаты"</p>
-                                </div>
-                            </div>
-                            <div className="" onClick={() => {
-                            document.location.href = "#/";
-                        }}>
-                            <div className="inner">
-                                <p>Или можете пройти тест заново</p>
-                            </div>
-                        </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            );
         if (this.state.info) {
             return (
                 <div className={this.state.fadeRev ? 'fade reverse' : ''}
@@ -187,12 +170,12 @@ class Quiz extends React.Component {
                         <div className="grade">
                             <div className="stars">
                                 <div className="inner">
-                                <StarRatingComponent
-                                    name="rate1"
-                                    starCount={5}
-                                    value={rating}
-                                    onStarClick={this.onStarClick.bind(this)}
-                                />
+                                    <StarRatingComponent
+                                        name="rate1"
+                                        starCount={5}
+                                        value={rating}
+                                        onStarClick={this.onStarClick.bind(this)}
+                                    />
                                 </div>
                             </div>
                         </div>

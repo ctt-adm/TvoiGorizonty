@@ -6,8 +6,8 @@ import Results from "./Results";
 const Main = () => (
     <main>
         <Switch>
+            <Route path='/Results#/' component={Results}/>
             <Route exact path='/' component={Quiz}/>
-            <Route path='/Results' component={Results}/>
         </Switch>
     </main>
 )
