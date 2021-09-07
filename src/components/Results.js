@@ -110,7 +110,7 @@ class Results extends React.Component {
 
                     <div className="button_next" onClick={() => {
                         localStorage.clear()
-                        document.location.href = "/";
+                        document.location.href = "/TvoiGorizonty/";
                     }}>
                         <div className="inner">Пройти заново</div>
                     </div>
@@ -155,7 +155,7 @@ class Results extends React.Component {
 
                 <div className="button_next" onClick={() => {
                     localStorage.clear()
-                    document.location.href = "/";
+                    document.location.href = "/TvoiGorizonty/";
                 }}>
                     <div className="inner">Пройти заново</div>
                 </div>

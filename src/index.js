@@ -8,7 +8,7 @@ import Main from './components/Main';
 import {HashRouter} from 'react-router-dom';
 
 const particleOpt = {
-    fpsLimit: 60,
+    fpsLimit: 30,
     particles: {
         number: {
             value: 100/*,
