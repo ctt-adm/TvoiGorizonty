@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css",
-    "main.js": "/TvoiGorizonty/static/js/main.b0d346d7.chunk.js",
-    "main.js.map": "/TvoiGorizonty/static/js/main.b0d346d7.chunk.js.map",
+    "main.js": "/TvoiGorizonty/static/js/main.858f0c32.chunk.js",
+    "main.js.map": "/TvoiGorizonty/static/js/main.858f0c32.chunk.js.map",
     "runtime-main.js": "/TvoiGorizonty/static/js/runtime-main.076f968c.js",
     "runtime-main.js.map": "/TvoiGorizonty/static/js/runtime-main.076f968c.js.map",
     "static/js/2.44ffa2fb.chunk.js": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js",
     "static/js/2.44ffa2fb.chunk.js.map": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.map",
     "index.html": "/TvoiGorizonty/index.html",
-    "precache-manifest.2e9c9c659935bfc8e345738d5676294d.js": "/TvoiGorizonty/precache-manifest.2e9c9c659935bfc8e345738d5676294d.js",
+    "precache-manifest.b66767ec095f747b151c7266f25093c4.js": "/TvoiGorizonty/precache-manifest.b66767ec095f747b151c7266f25093c4.js",
     "service-worker.js": "/TvoiGorizonty/service-worker.js",
     "static/css/main.1d98578d.chunk.css.map": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css.map",
     "static/js/2.44ffa2fb.chunk.js.LICENSE.txt": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.LICENSE.txt",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.076f968c.js",
     "static/js/2.44ffa2fb.chunk.js",
     "static/css/main.1d98578d.chunk.css",
-    "static/js/main.b0d346d7.chunk.js"
+    "static/js/main.858f0c32.chunk.js"
   ]
 }

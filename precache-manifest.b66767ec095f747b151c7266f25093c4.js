@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6d25f4f013197d4975f0e918caf4580",
+    "revision": "bb617c5f79a3f63c2a422b681e107407",
     "url": "/TvoiGorizonty/index.html"
   },
   {
-    "revision": "afaf4659eb8321951ad1",
+    "revision": "03a80d30145367892176",
     "url": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afaf4659eb8321951ad1",
-    "url": "/TvoiGorizonty/static/js/main.b0d346d7.chunk.js"
+    "revision": "03a80d30145367892176",
+    "url": "/TvoiGorizonty/static/js/main.858f0c32.chunk.js"
   },
   {
     "revision": "41b3a4fe230c5e4d17a6",
