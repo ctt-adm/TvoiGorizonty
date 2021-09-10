@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css",
-    "main.js": "/TvoiGorizonty/static/js/main.a92d0be4.chunk.js",
-    "main.js.map": "/TvoiGorizonty/static/js/main.a92d0be4.chunk.js.map",
+    "main.js": "/TvoiGorizonty/static/js/main.871362b7.chunk.js",
+    "main.js.map": "/TvoiGorizonty/static/js/main.871362b7.chunk.js.map",
     "runtime-main.js": "/TvoiGorizonty/static/js/runtime-main.076f968c.js",
     "runtime-main.js.map": "/TvoiGorizonty/static/js/runtime-main.076f968c.js.map",
-    "static/js/2.44ffa2fb.chunk.js": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js",
-    "static/js/2.44ffa2fb.chunk.js.map": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.map",
+    "static/js/2.974c6b7a.chunk.js": "/TvoiGorizonty/static/js/2.974c6b7a.chunk.js",
+    "static/js/2.974c6b7a.chunk.js.map": "/TvoiGorizonty/static/js/2.974c6b7a.chunk.js.map",
     "index.html": "/TvoiGorizonty/index.html",
-    "precache-manifest.afa41b7c81be7c58f00e3c06b3168caa.js": "/TvoiGorizonty/precache-manifest.afa41b7c81be7c58f00e3c06b3168caa.js",
+    "precache-manifest.bc1c7d20c41f68e3a6f2325a0bf62428.js": "/TvoiGorizonty/precache-manifest.bc1c7d20c41f68e3a6f2325a0bf62428.js",
     "service-worker.js": "/TvoiGorizonty/service-worker.js",
     "static/css/main.1d98578d.chunk.css.map": "/TvoiGorizonty/static/css/main.1d98578d.chunk.css.map",
-    "static/js/2.44ffa2fb.chunk.js.LICENSE.txt": "/TvoiGorizonty/static/js/2.44ffa2fb.chunk.js.LICENSE.txt",
+    "static/js/2.974c6b7a.chunk.js.LICENSE.txt": "/TvoiGorizonty/static/js/2.974c6b7a.chunk.js.LICENSE.txt",
     "static/media/T - искать и устранять неисправности - 1.png": "/TvoiGorizonty/static/media/T - искать и устранять неисправности - 1.5acb7723.png",
     "static/media/T - конструировать и изобретать - 1.png": "/TvoiGorizonty/static/media/T - конструировать и изобретать - 1.fe8052e7.png",
+    "static/media/T - хорошо ориентиоваться в пространстве - 1.png": "/TvoiGorizonty/static/media/T - хорошо ориентиоваться в пространстве - 1.c4365556.png",
     "static/media/Е - понимать природные явления - 1.png": "/TvoiGorizonty/static/media/Е - понимать природные явления - 1.9065e4a4.png",
     "static/media/Е - проводить лабораторные исследования - 1.png": "/TvoiGorizonty/static/media/Е - проводить лабораторные исследования - 1.d041a454.png",
     "static/media/Е - работать вне офиса в природных условиях - 1.png": "/TvoiGorizonty/static/media/Е - работать вне офиса в природных условиях - 1.c35f1300.png",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.076f968c.js",
-    "static/js/2.44ffa2fb.chunk.js",
+    "static/js/2.974c6b7a.chunk.js",
     "static/css/main.1d98578d.chunk.css",
-    "static/js/main.a92d0be4.chunk.js"
+    "static/js/main.871362b7.chunk.js"
   ]
 }
