@@ -116,7 +116,7 @@ class Quiz extends React.Component {
                 >
                     <div className="card_results">
                         <div className="result_text">
-                            <h2>Задание</h2>
+                            <h2>Задание 1</h2>
                             <h4>Далее будут представлены виды занятий</h4>
                             <p>Оцените насколько они вам интересны по 5-ти балльной шкале</p>
                         </div>
@@ -172,6 +172,7 @@ class Quiz extends React.Component {
                                 <div className="inner">
                                     <StarRatingComponent
                                         name="rate1"
+                                        emptyStarColor="#C4C4C4"
                                         starCount={5}
                                         value={rating}
                                         onStarClick={this.onStarClick.bind(this)}

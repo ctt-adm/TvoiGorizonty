@@ -12,7 +12,7 @@ import pic11 from './Е - проводить лабораторные иссле
 import pic12 from './Е - работать вне офиса в природных условиях - 1.png'
 import pic13 from './T - конструировать и изобретать - 1.png'
 import pic14 from './T - искать и устранять неисправности - 1.png'
-import pic15 from './Х - сочинять лит. произведения, петь, танцевать - 1.png'
+import pic15 from './T - хорошо ориентиоваться в пространстве - 1.png'
 
 /*export const QuizData = [
   {

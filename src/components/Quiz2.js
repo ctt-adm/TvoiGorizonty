@@ -98,7 +98,7 @@ class Quiz2 extends React.Component {
                 >
                     <div className="card_results">
                         <div className="result_text">
-                            <h2>Задание</h2>
+                            <h2>Задание 2</h2>
                             <h4>Далее будут представлены списки кружков</h4>
                             <p>Выберите наиболее интересный из представленных</p>
                         </div>
